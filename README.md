@@ -1,8 +1,12 @@
 # Project-1-Hust
 Họ tên sinh viên : Chu Nam Khánh.
+
 Mã số sinh viên : 20225018.
+
 Lớp Project 1 : 744276.
+
 --> Bài tập Project 1 - Đề 1.
+
 Đề tài : Code thuật toán Clark And Wright để tìm lời giải tối ưu cục bộ 
 cho bài toán CVRP(Capacitated Vehicle Routing Problem) và tối ưu lại bằng
 thuật toán 2-opt và 3-opt.
