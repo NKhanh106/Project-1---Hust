@@ -20,7 +20,9 @@ Test set A lấy từ link : http://vrp.galgos.inf.puc-rio.br/index.php/en/
 
 Để chạy dự án này:
 Bước 1: Clone từ github bằng lệnh "git clone (URL)".
+
 Bước 2: Chạy file cpp ClarkAndWrightbasic.cpp.
+
 Bước 3: Lấy đáp án trong folder VrpVrp-Set_A-output.
 
 Thời điểm hoàn thành : 22/12/2024.
