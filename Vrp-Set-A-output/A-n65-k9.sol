@@ -3,9 +3,9 @@ Dimension: 65
 Trucks: 9
 Capacity: 100
 Optimal: 1174
-Clark and Wright answer: 1243.39
-Clark and Wright with 2-opt answer: 1239.36
-Clark and Wright with 3-opt answer: 1239.36
+Clark and Wright answer: 1243.3888
+Clark and Wright with 2-opt answer: 1239.3603
+Clark and Wright with 3-opt answer: 1239.3603
 
 Route Clark and Wright: 
 Route 1: 1 --> 19 --> 20 --> 25 --> 53 --> 11 --> 9 --> 54 --> 1
@@ -30,6 +30,7 @@ Route 7: 1 --> 41 --> 60 --> 57 --> 45 --> 26 --> 1
 Route 8: 1 --> 48 --> 35 --> 32 --> 27 --> 7 --> 65 --> 47 --> 1
 Route 9: 1 --> 50 --> 44 --> 28 --> 16 --> 18 --> 52 --> 40 --> 1
 Route 10: 1 --> 63 --> 1
+Impove: 0.3240% 
 
 Route Clark and Wright with 3-opt: 
 Route 1: 1 --> 19 --> 20 --> 25 --> 53 --> 9 --> 11 --> 54 --> 1
@@ -42,3 +43,4 @@ Route 7: 1 --> 41 --> 60 --> 57 --> 45 --> 26 --> 1
 Route 8: 1 --> 48 --> 35 --> 32 --> 27 --> 7 --> 65 --> 47 --> 1
 Route 9: 1 --> 50 --> 44 --> 28 --> 16 --> 18 --> 52 --> 40 --> 1
 Route 10: 1 --> 63 --> 1
+Impove: 0.3240% 

@@ -381,6 +381,7 @@ int main(){
     for(int i = 0;i < KetQua.size();i++){
         string filename = output + "/" + KetQua[i].name + ".sol";
         ofstream outfile(filename);
+        outfile << fixed << setprecision(4);
         outfile << "Name: " << KetQua[i].name << "\n";
         outfile << "Dimension: " << KetQua[i].dimension << "\n";
         outfile << "Trucks: " << KetQua[i].trucks << "\n";
@@ -407,7 +408,7 @@ int main(){
             }
             outfile << "\n";
         }
-        outfile << "\n";
+        outfile << "Impove: "  << (KetQua[i].ClarkAndWrightoutput - KetQua[i].ClarkAndWright_2opt) * 100 / KetQua[i].ClarkAndWrightoutput << "% \n\n";
         outfile << "Route Clark and Wright with 3-opt: \n";
         for(int j = 0;j < KetQua[i].route_3opt.size();j++){
             outfile << "Route " << j + 1 << ": " << KetQua[i].route_3opt[j][0];
@@ -416,6 +417,7 @@ int main(){
             }
             outfile << "\n";
         }
+        outfile << "Impove: "  << (KetQua[i].ClarkAndWrightoutput - KetQua[i].ClarkAndWright_3opt) * 100 / KetQua[i].ClarkAndWrightoutput << "% \n";
         outfile.close();
     }
 }
