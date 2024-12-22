@@ -19,6 +19,7 @@ vào các file có định dạng SOL trong Vrp-Set_A-output.
 Test set A lấy từ link : http://vrp.galgos.inf.puc-rio.br/index.php/en/
 
 Để chạy dự án này:
+
 Bước 1: Clone từ github bằng lệnh "git clone (URL)".
 
 Bước 2: Chạy file cpp ClarkAndWrightbasic.cpp.
